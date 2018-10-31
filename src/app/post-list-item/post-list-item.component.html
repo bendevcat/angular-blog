@@ -1,3 +1,12 @@
-<p>
-  post-list-item works!
-</p>
+<li class="list-group-item" style="margin: 1em 0;">
+
+  <h2>{{ postTitle }}</h2>
+  <h4>{{ postCreatedAt | date: 'EEEE d MMMM y' }}</h4>
+  <p>{{ postContent }}</p>
+
+  <button class="btn btn-success"
+          (click)="onLoveIts()">Like</button>
+    &nbsp;&nbsp;
+  <button class="btn btn-danger"
+          (click)="onNotLoveIts()">Dislike</button>
+</li>
