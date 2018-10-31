@@ -15,18 +15,13 @@ export class PostListItemComponent implements OnInit {
   constructor() { }
 
   onLoveIts() {
-      if (this.postLoveIts >= 0) {
-          this.postLoveIts++;
-          console.log(this.postLoveIts);
-      }
-
+      this.postLoveIts++;
+      console.log(this.postLoveIts);
   }
 
   onNotLoveIts() {
-      if (this.postLoveIts > 0) {
-          this.postLoveIts--;
-          console.log(this.postLoveIts);
-      }
+      this.postLoveIts--;
+      console.log(this.postLoveIts);
   }
 
   ngOnInit() {
