@@ -1,4 +1,4 @@
-# Angular Blog - OC Project
+# Angular Blog - OC Project [DEPRECATED]
 
 [OpenClassrooms exercise link](https://openclassrooms.com/fr/courses/4668271-developpez-des-applications-web-avec-angular/exercises/2353)
 
